@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>상품 관리
+        <ul>
+<!--            <li><a href="/servlet/v1/upload">서블릿 파일 업로드1</a></li>-->
+<!--            <li><a href="/servlet/v2/upload">서블릿 파일 업로드2</a></li>-->
+<!--            <li><a href="/spring/upload">스프링 파일 업로드</a></li>-->
+<!--            <li><a href="/items/new">상품 - 파일, 이미지 업로드</a></li>-->
+        </ul>
+    </li>
+
+<!--    <form action="/upload" method="post" enctype="multipart/form-data">-->
+<!--        <input type="file" name="file">-->
+<!--        <input type="submit">-->
+<!--    </form>-->
+
+    <form action="/springUpload" method="post" enctype="multipart/form-data">
+        <label>
+            <input type="text" name="filename" />
+        </label>
+        <input type="file" name="multipartFile">
+        <input type="submit">
+    </form>
+</ul>
+</body>
+</html>
